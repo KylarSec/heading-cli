@@ -2,30 +2,52 @@
 
 A simple CLI tool that generates clean section headings for code.
 
-## Usage
+## Installation
+
+Install directly from GitHub:
 
 ```bash
-heading "Array Methods"
+npm install -g github:KylarSec/heading-cli
 ```
 
-````
+## Usage
 
-### Output
+Run:
+
+```bash
+heading "Example Heading"
+```
+
+Output:
 
 ```js
 // ======================================================================
-// ---------------------------- ARRAY METHODS ----------------------------
+// ---------------------------- EXAMPLE HEADING -------------------------
 // ======================================================================
 ```
 
-## Current Features
+You can use it with any heading:
 
-- Generate formatted code section headings
-- Center the heading automatically
-- Convert the heading to uppercase
-- Use it directly from the terminal
-
+```bash
+heading "Object Destructuring"
+heading "Functions"
+heading "JavaScript Engine"
 ```
 
+## How It Works
 
-````
+The CLI takes the heading you provide as a command-line argument and automatically:
+
+- Converts it to uppercase
+- Centers it between dashes
+- Adds `//` comment syntax
+- Keeps the heading at a fixed width
+
+## Requirements
+
+- Node.js
+- npm
+
+## Repository
+
+[GitHub Repository](https://github.com/KylarSec/heading-cli)
