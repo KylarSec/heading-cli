@@ -1,6 +1,6 @@
-"use strict";
+#!/usr/bin/env node
 
-console.log("Hello from console");
+"use strict";
 
 // process.argv is an array containing the things you give to Node when starting the program.
 // Eg: node index.js gives
