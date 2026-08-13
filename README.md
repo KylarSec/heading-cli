@@ -1,4 +1,3 @@
-````markdown
 # heading-cli
 
 A simple CLI tool that generates clean section headings for code.
@@ -8,6 +7,7 @@ A simple CLI tool that generates clean section headings for code.
 ```bash
 heading "Array Methods"
 ```
+
 ````
 
 ### Output
@@ -27,4 +27,5 @@ heading "Array Methods"
 
 ```
 
-```
+
+````
